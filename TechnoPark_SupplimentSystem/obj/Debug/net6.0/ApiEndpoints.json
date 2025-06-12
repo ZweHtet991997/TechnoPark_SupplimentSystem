@@ -1,0 +1,461 @@
+[
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CategoryController",
+    "Method": "CategoryList",
+    "RelativePath": "api/category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/category",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CommissionController",
+    "Method": "GetCommission",
+    "RelativePath": "api/commission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CommissionController",
+    "Method": "SetupCommission",
+    "RelativePath": "api/commission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CommissionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CommissionController",
+    "Method": "UpdateCommission",
+    "RelativePath": "api/commission",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CommissionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CurrencyExchangeRateController",
+    "Method": "ExchangeRate",
+    "RelativePath": "api/dailyexchangerate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currency",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "exchangeRateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CurrencyExchangeRateController",
+    "Method": "SetupExchangeRate",
+    "RelativePath": "api/exchangerate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CurrencyExchangeRateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CurrencyExchangeRateController",
+    "Method": "ExchangeRate",
+    "RelativePath": "api/exchangerate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CurrencyExchangeRateController",
+    "Method": "UpdateExchangeRate",
+    "RelativePath": "api/exchangerate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CurrencyExchangeRateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.CurrencyExchangeRateController",
+    "Method": "DeteExchangeRate",
+    "RelativePath": "api/exchangerate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.CurrencyExchangeRateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.SalesController",
+    "Method": "AddSale",
+    "RelativePath": "api/sale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.SalesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.SalesController",
+    "Method": "UpdateSale",
+    "RelativePath": "api/sale",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.SalesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.SalesController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/sale",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "deletedBy",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.SalesController",
+    "Method": "SaleList",
+    "RelativePath": "api/salelist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.SaleListRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.GlobalSupplierController",
+    "Method": "CreateSupplier",
+    "RelativePath": "api/supplier/global",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.GlobalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.GlobalSupplierController",
+    "Method": "SupplierList",
+    "RelativePath": "api/supplier/global",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.GlobalSupplierController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "api/supplier/global",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.GlobalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.GlobalSupplierController",
+    "Method": "DeletSupplier",
+    "RelativePath": "api/supplier/global",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.GlobalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.LocalSupplierController",
+    "Method": "CreateSupplier",
+    "RelativePath": "api/supplier/local",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.LocalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.LocalSupplierController",
+    "Method": "SupplierList",
+    "RelativePath": "api/supplier/local",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.LocalSupplierController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "api/supplier/local",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.LocalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.LocalSupplierController",
+    "Method": "DeletSupplier",
+    "RelativePath": "api/supplier/local",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.LocalSupplierModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.UserController",
+    "Method": "UserList",
+    "RelativePath": "api/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/user",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/user",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechnoPark_SupplimentSystem.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechnoPark_SupplimentSystem.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TechnoPark_SupplimentSystem.WeatherForecast, TechnoPark_SupplimentSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

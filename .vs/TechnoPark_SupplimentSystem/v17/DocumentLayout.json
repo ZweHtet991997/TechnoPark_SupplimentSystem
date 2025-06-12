@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\models\\entities\\salesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\models\\entities\\salesentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\controllers\\localsuppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\controllers\\localsuppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\services\\salesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\services\\salesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|c:\\myprojects\\technopark_supplimentsystem\\technopark_supplimentsystem\\models\\salesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD6701E-DC99-4645-B189-0E94951B83C5}|TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem.csproj|solutionrelative:technopark_supplimentsystem\\models\\salesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesServices.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Services\\SalesServices.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Services\\SalesServices.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Services\\SalesServices.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Services\\SalesServices.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAI0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T08:30:44.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesEntities.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Models\\Entities\\SalesEntities.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Models\\Entities\\SalesEntities.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Models\\Entities\\SalesEntities.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Models\\Entities\\SalesEntities.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:41:10.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T08:30:44.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalSupplierController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\LocalSupplierController.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Controllers\\LocalSupplierController.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\LocalSupplierController.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Controllers\\LocalSupplierController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:47:00.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\appsettings.json",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\appsettings.json",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T02:44:21.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Program.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Program.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Program.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:44:17.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesModel.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Models\\SalesModel.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Models\\SalesModel.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Models\\SalesModel.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Models\\SalesModel.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv2oAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:58:35.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TechnoPark_SupplimentSystem\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\MyProjects\\TechnoPark_SupplimentSystem\\TechnoPark_SupplimentSystem\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TechnoPark_SupplimentSystem\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:42:30.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

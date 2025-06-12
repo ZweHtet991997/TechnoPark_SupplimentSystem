@@ -1,0 +1,1516 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TechnoPark_SupplimentSystem",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/category": {
+      "post": {
+        "tags": [
+          "Category"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Category"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Category"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/commission": {
+      "get": {
+        "tags": [
+          "Commission"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Commission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Commission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CommissionModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/exchangerate": {
+      "post": {
+        "tags": [
+          "CurrencyExchangeRate"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "CurrencyExchangeRate"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CurrencyExchangeRate"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CurrencyExchangeRate"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrencyExchangeRateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/dailyexchangerate": {
+      "get": {
+        "tags": [
+          "CurrencyExchangeRate"
+        ],
+        "parameters": [
+          {
+            "name": "currency",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "exchangeRateDate",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/supplier/global": {
+      "post": {
+        "tags": [
+          "GlobalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "GlobalSupplier"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "GlobalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "GlobalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GlobalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/supplier/local": {
+      "post": {
+        "tags": [
+          "LocalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "LocalSupplier"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "LocalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "LocalSupplier"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LocalSupplierModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/sale": {
+      "post": {
+        "tags": [
+          "Sales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Sales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SalesModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Sales"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "deletedBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/salelist": {
+      "post": {
+        "tags": [
+          "Sales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaleListRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaleListRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaleListRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/user": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/user/login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CategoryModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CommissionModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "commissionPercentageIndividual": {
+            "type": "string",
+            "nullable": true
+          },
+          "commissionPercentageTeam": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createdUserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updatedUserId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrencyExchangeRateModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usD_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "euR_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "jpY_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "thB_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "cnY_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "sgD_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "gbP_ExchangRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "mrM_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "kW_Exchange_Rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "auD_Exchange_Rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "aeD_Exchange_Rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "createdDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "exchangeRateDate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GlobalSupplierModel": {
+        "type": "object",
+        "properties": {
+          "no": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplier_Company_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplier_Contact_Person": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "website": {
+            "type": "string",
+            "nullable": true
+          },
+          "brand": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "product_Details": {
+            "type": "string",
+            "nullable": true
+          },
+          "product_Category": {
+            "type": "string",
+            "nullable": true
+          },
+          "purchased_History_Type_of_Response": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplier_Invoice_Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "end_User_PO_Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "quotation_to_End_User": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "stock_Photo_at_Technopark_Warehouse": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LocalSupplierModel": {
+        "type": "object",
+        "properties": {
+          "no": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplier_Company_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "suppliers_Contact_Person": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "website": {
+            "type": "string",
+            "nullable": true
+          },
+          "brand": {
+            "type": "string",
+            "nullable": true
+          },
+          "product_Category": {
+            "type": "string",
+            "nullable": true
+          },
+          "product_Details": {
+            "type": "string",
+            "nullable": true
+          },
+          "purchased_History_Type_of_Response": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplier_Invoice_Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "end_User_PO_Number": {
+            "type": "string",
+            "nullable": true
+          },
+          "quotation_to_End_User": {
+            "type": "string",
+            "nullable": true
+          },
+          "stock_Photo_at_Technopark_Warehouse": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SaleListRequestModel": {
+        "type": "object",
+        "properties": {
+          "refNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "number",
+            "format": "double"
+          },
+          "fromDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "toDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SalesModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "refNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "quotationNoToEndUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "poReceivedDateFromEndUser": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "poNumberFromEndUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "productCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "productDetails": {
+            "type": "string",
+            "nullable": true
+          },
+          "deliveryOrderNoToEndUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "deliveryAndInvoiceDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "invoiceNoToEndUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentDueDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "paymentReceivedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBuyPrice_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBuyPrice_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplierBuyPrice_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "supplierBuyPrice_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "supplierBuyPrice_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBuyingPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "tax_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "tax_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "tax_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "tax_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tax_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "tax": {
+            "type": "number",
+            "format": "double"
+          },
+          "bankCharges_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "bankCharges_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "bankCharges_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "bankCharges_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "bankCharges_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "bankCharges": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "logisticsCost_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "logisticsCost_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "logisticsCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_Local_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "logisticsCost_Local_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_Local_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "logisticsCost_Local_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "logisticsCost_Local_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "logisticsCost_Local": {
+            "type": "number",
+            "format": "double"
+          },
+          "unexpectedCost_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "unexpectedCost_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "unexpectedCost_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "unexpectedCost_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "unexpectedCost_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "unexpectedCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossAmountDueToExchange_Rate_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "lossAmountDueToExchange_Rate_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossAmountDueToExchange_Rate_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossAmountDueToExchange_Rate_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lossAmountDueToExchange_Rate_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "lossAmountDueToExchange_Rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "lossAmountDueToExchange_Rate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "miscellaneousCost_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "miscellaneousCost_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "miscellaneousCost_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "miscellaneousCost_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "miscellaneousCost_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "miscellaneousCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "equipmentAndFacilityRentalFees_Currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "equipmentAndFacilityRentalFees_Amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "equipmentAndFacilityRentalFees_ExchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "equipmentAndFacilityRentalFees_ExchangeRate_Date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "equipmentAndFacilityRentalFees_Note": {
+            "type": "string",
+            "nullable": true
+          },
+          "equipmentAndFacilityRentalFees": {
+            "type": "number",
+            "format": "double"
+          },
+          "finalSellingPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "finalBuyingPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "profitAndLoss": {
+            "type": "number",
+            "format": "double"
+          },
+          "commissionPercentageGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "commissionPercentageIndividual": {
+            "type": "string",
+            "nullable": true
+          },
+          "commissionPercentageGroupFinalAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "commissionPercentageIndividualFinalAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "link": {
+            "type": "string",
+            "nullable": true
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "exchangeRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "createdBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBuyingPriceUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "taxUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "bankChargeUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "logisticCostUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "logisticCostLocalUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "unexpectedCostUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lossAmountDueToExchange_RateUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "miscellaneousCostUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "equipmentAndFacilityFeesUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isDeleted": {
+            "type": "boolean"
+          },
+          "deletedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "deletedDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserModel": {
+        "type": "object",
+        "properties": {
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userRole": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
